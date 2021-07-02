@@ -8,7 +8,7 @@ export const ModalEliminar = ({modalVisible, seleccionado ,handleConfirmDelete})
       <View style={styles.container}>
         <View style={[styles.contenido]}>
           <Text style={styles.mensaje}>
-            ¿Desea Eliminar?
+            Quieres Eliminarlo?
           </Text>
           <Text style={styles.producto}>{seleccionado.value}</Text>
           <View>

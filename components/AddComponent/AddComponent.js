@@ -16,7 +16,7 @@ export const AddComponent = ({ handleChangeText, producto, handleAddItem }) => {
           onChangeText={handleChangeText}
           value={producto}
         />
-        <Button title="Agregar" color="#01E611" onPress={handleAddItem} />
+        <Button title="AGREGAR" color="#01E611" onPress={handleAddItem} />
       </View>
   );
 };
